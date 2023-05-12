@@ -1,7 +1,8 @@
 
 const butOperators = document.querySelector('#butOperators');
 const showDisplay = document.querySelector('#showDisplay');
-const butNumbers = document.querySelector('#butNumbers');
+const butNumbers = document.querySelector('#butNumbers')
+
 const butEqual = document.querySelector('#butEqual');
 const butClear = document.querySelector('#butClear');
 
@@ -19,21 +20,21 @@ function add() {
 }
 
 function subtract() {
-    getEqualNum = Math.round(Number(num1) - Number(num2)*100)/100;
+    getEqualNum = Math.round((Number(num1) - Number(num2))*100)/100;
     showDisplay.innerHTML = getEqualNum;
     num1 = getEqualNum;
     return getEqualNum;
 }
 
 function multiply() {
-    getEqualNum = Math.round(Number(num1) * Number(num2)*100)/100;
+    getEqualNum = MMath.round((Number(num1) * Number(num2))*100)/100;
     showDisplay.innerHTML = getEqualNum;
     num1 = getEqualNum;
     return getEqualNum;
 } 
 
 function divide() {
-    getEqualNum = Math.round(Number(num1) / Number(num2)*100)/100;
+    getEqualNum = Math.round((Number(num1) / Number(num2))*100)/100;
     showDisplay.innerHTML = getEqualNum;
     if (num2 ===  "0") {
         showDisplay.innerHTML = "DIVIDE BY 0 ERROR";
@@ -63,7 +64,7 @@ butNumbers.addEventListener('click', (e) => {
             if (showDisplay.innerHTML === "+" || 
                 showDisplay.innerHTML === "*" ||  
                 showDisplay.innerHTML === "-" ||  
-                showDisplay.innerHTML === `/`) {
+                showDisplay.innerHTML === `/` ) {
                     showDisplay.innerHTML = "";
                 };
             isFirstName = false;

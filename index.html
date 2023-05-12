@@ -9,27 +9,42 @@
 <body>
     <script></script>
     <div id="showDisplay"></div>
-    <div id="butNumbers">
-        <button id="but0">0</button>
-        <button id="but1">1</button>
-        <button id="but2">2</button>
-        <button id="but3">3</button>
-        <button id="but4">4</button>
-        <button id="but5">5</button>
-        <button id="but6">6</button>
-        <button id="but7">7</button>
-        <button id="but8">8</button>
-        <button id="but9">9</button>
-        <button id ="butdecimal">.</button>
+    <div id="butNumOp">
+        <div id="butNumbers">
+            <div>
+                <button id="but7" class="butNumbers">7</button>
+                <button id="but8" class="butNumbers">8</button>
+                <button id="but9" class="butNumbers">9</button>
+            </div>
+            <div>
+                <button id="but4" class="butNumbers">4</button>
+                <button id="but5" class="butNumbers">5</button>
+                <button id="but6" class="butNumbers">6</button>
+            </div>
+            <div>
+                <button id="but1" class="butNumbers">1</button>
+                <button id="but2" class="butNumbers">2</button>
+                <button id="but3" class="butNumbers">3</button>
+            </div>
+            <div>
+                <button id="but0" class="butNumbers">0</button>
+                <button id ="butdecimal" class="butNumbers">.</button>
+                <button id ="butNegative" class="butNumbers">-</button>
+            </div>
+        </div>
+
+        <div id="butOperators">
+            <button id="butAdd" class="butOperators">+</button>
+            <button id="butSubtract" class="butOperators">-</button>
+            <button id="butMultiply" class="butOperators">*</button>
+            <button id="butDivide" class="butOperators">/</button>
+        </div>
     </div>
-    <div id="butOperators">
-        <button id="butAdd">+</button>
-        <button id="butSubtract">-</button>
-        <button id="butMultiply">*</button>
-        <button id="butDivide">/</button>
-    </div>
+<div id="bottomBut">
+    <button id="butClear" class="butOperators">CE</button>
     <button id="butEqual">=</button>
-    <button id="butClear">CLEAR</button>
+</div>
+
 
 
 </body>

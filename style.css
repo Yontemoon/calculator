@@ -1,0 +1,52 @@
+
+body {
+    border-style: solid;
+    border-color: blanchedalmond;
+    font-size: 20px;
+
+}
+#showDisplay {
+    border-style: solid;
+    border-color: black;
+    border-radius: 2px;
+    position: static;
+    padding: 10px;
+    
+}
+
+.butNumbers {
+    /* display: flex; */
+    font-size: 20px;
+    /* text-align: center; */
+    background-color:lightslategray;
+    /* box-sizing: border-box; */
+    width: 60px;
+    height: 30px;
+    color: white;
+
+}
+.butOperators {
+    background-color: cadetblue;
+    font-size: 20px;
+    text-align:center;
+    width: 60px;
+    height: 30px;
+    color: white;
+    display: flex;
+
+}
+
+#butEqual {
+    background-color:rgb(12, 82, 161);
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+#bottomBut {
+    display: flex;
+}
+#butNumOp {
+    display: flex;
+}
